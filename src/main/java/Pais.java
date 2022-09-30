@@ -37,7 +37,7 @@ public class Pais {
 		Pais.listaPaises = listaPaises;
 	}
 
-	// Métodos
+	// Metodos
 	public Pais paisMasVendedor() {
 		Pais paisMasVendedor = listaPaises.get(0);
 		for (Pais p : listaPaises) {

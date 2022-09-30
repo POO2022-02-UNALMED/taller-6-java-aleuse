@@ -44,7 +44,7 @@ public class Fabricante {
 		Fabricante.listaFabricas = listaFabricas;
 	}
 	
-	// Métodos
+	// Metodos
 		public Fabricante fabricaMayorVentas() {
 			Fabricante fabricaMayorVentas = listaFabricas.get(0);
 			for (Fabricante p : listaFabricas) {
