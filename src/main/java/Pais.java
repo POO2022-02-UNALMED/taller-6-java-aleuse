@@ -38,7 +38,7 @@ public class Pais {
 	}
 
 	// Metodos
-	public Pais paisMasVendedor() {
+	public static Pais paisMasVendedor() {
 		Pais paisMasVendedor = listaPaises.get(0);
 		for (Pais p : listaPaises) {
 			if (p.vehiculosVendidos > paisMasVendedor.vehiculosVendidos) {

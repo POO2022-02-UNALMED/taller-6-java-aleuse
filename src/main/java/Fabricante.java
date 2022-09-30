@@ -45,13 +45,13 @@ public class Fabricante {
 	}
 	
 	// Metodos
-		public Fabricante fabricaMayorVentas() {
-			Fabricante fabricaMayorVentas = listaFabricas.get(0);
-			for (Fabricante p : listaFabricas) {
-				if (p.vehiculosVendidos > fabricaMayorVentas.vehiculosVendidos) {
-					fabricaMayorVentas = p;
-				}
+	public static Fabricante fabricaMayorVentas() {
+		Fabricante fabricaMayorVentas = listaFabricas.get(0);
+		for (Fabricante p : listaFabricas) {
+			if (p.vehiculosVendidos > fabricaMayorVentas.vehiculosVendidos) {
+				fabricaMayorVentas = p;
 			}
-			return fabricaMayorVentas;
 		}
+		return fabricaMayorVentas;
+	}
 }
