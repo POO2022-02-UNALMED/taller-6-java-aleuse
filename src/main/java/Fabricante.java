@@ -11,6 +11,7 @@ public class Fabricante {
 	public Fabricante(String nombre, Pais pais) {
 		setNombre(nombre);
 		setPais(pais);
+		listaFabricas.add(this);
 	}
 	
 	// Getters y Setters
